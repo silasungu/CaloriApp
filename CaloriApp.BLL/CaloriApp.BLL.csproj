@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaloriApp.Core\CaloriApp.Core.csproj" />
+    <ProjectReference Include="..\CaloriApp.DataAccess\CaloriApp.DataAccess.csproj" />
+    <ProjectReference Include="..\CaloriApp.Entities\CaloriApp.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
